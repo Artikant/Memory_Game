@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #32475d;
+}
+.container {
+    text-align: center;
+    padding-top:2rem;
+    
+}
+
+.grid-container {
+    content: cen;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #32475d;
+    padding: 2rem;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card.flip {
+    background-color: #bbc0cb;
+}
+
+#reset-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #afb2b6;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+#reset-btn:hover {
+    background-color: #749ec7;
+}
